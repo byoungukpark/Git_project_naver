@@ -16,10 +16,11 @@ study certification
    Web3.js v1.10.0
    
 2) 실행
-   truffle migrate
+
+   배포 : truffle migrate
    ![image](https://github.com/byoungukpark/Git_project_naver/assets/88645300/75f55bbf-a219-4335-b7f4-9f50acd13463)
 
-   yarn start
+   실행 : yarn start
    
    ![image](https://github.com/byoungukpark/Git_project_naver/assets/88645300/6388c9c2-49d4-490a-8b5c-9ec4ee62b9aa)
 
