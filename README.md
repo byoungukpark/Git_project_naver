@@ -8,8 +8,7 @@ study certification
 
 
 - dapp_project : 간단한 블록체인 Dapp 프로젝트
-1) 실행환경
-1-1) 트러플, 가나슈, 메타마스크
+1) 실행환경 
    Truffle v5.11.2 (core: 5.11.2)
    Ganache v7.9.0
    Solidity v0.5.16 (solc-js)
