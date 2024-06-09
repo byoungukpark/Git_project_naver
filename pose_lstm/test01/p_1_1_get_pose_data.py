@@ -3,13 +3,12 @@ import mediapipe as mp
 import numpy as np
 import os, time
 
-#이건 뭔데
 seq_length = 30
 speed = 0.03
 time_to_start = 2 # 초
 
 
-# 미디어 파이프 포즈 모델 정의??
+# 미디어 파이프 포즈 모델 정의
 mp_pose = mp.solutions.pose
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
@@ -33,8 +32,8 @@ print(f'데이터 입력 시작 시 딜레이: {time_to_start}초')
 
 anounce_for_user = f'''
 웹캠 화면에서 메뉴 선택
-l 데이터를 쌓을 수어의 한글 단어 입력
-. 수어 데이터 입력 시작
+l 데이터를 쌓을 단어 입력
+. 데이터 입력 시작
 y 데이터 입력 준비 시간 변경(defalut: {time_to_start}s)
 ESC 종료
 '''
